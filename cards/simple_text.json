@@ -1,0 +1,10 @@
+{
+  "items": [
+    {
+      "bubble": {
+        "text": "*Привет всем*",
+        "markdown": true
+      }
+    }
+  ]
+}
