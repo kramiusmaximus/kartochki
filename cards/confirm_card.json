@@ -1,6 +1,5 @@
 {
-                      "type": "list_card",
-                      "can_be_disabled": true,
+
                       "paddings": {
                         "top": "4x"
                       },
@@ -284,5 +283,5 @@
                             "bottom": "4x"
                           }
                         }
-                      ]
+                      ], "type": "list_card"
 }

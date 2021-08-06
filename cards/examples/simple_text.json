@@ -1,10 +1,6 @@
 {
-  "items": [
-    {
-      "bubble": {
+  "bubble": {
         "text": "*Привет всем*",
         "markdown": true
       }
     }
-  ]
-}

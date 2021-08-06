@@ -1,9 +1,5 @@
 {
-  "items": [
-    {
-      "card": {
-        "type": "list_card",
-        "cells": [
+  "cells": [
           {
             "type": "left_right_cell_view",
             "left": {
@@ -51,8 +47,6 @@
               }
             ]
           }
-        ]
-      }
-    }
-  ]
+        ],
+  "type": "list_card"
 }
