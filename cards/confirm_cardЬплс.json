@@ -7,6 +7,31 @@
                         {
                           "type": "left_right_cell_view",
                           "paddings": {
+                            "top": "6x",
+                            "right": "4x",
+                            "left": "16x"
+                          },
+                          "left": {
+                            "type": "simple_left_view",
+                            "icon_vertical_gravity": "center",
+                            "texts": {
+                              "title": {
+                                "text": "Счет списания",
+                                "typeface": "footnote1",
+                                "text_color": "secondary",
+                                "margins": {
+                                  "left": "16x"
+                                }
+                              }
+                            }
+                          },
+                          "right": {
+                            "type": "disclosure_right_view"
+                          }
+                        },
+                        {
+                          "type": "left_right_cell_view",
+                          "paddings": {
                             "left": "8x",
                             "top": "4x",
                             "right": "8x",
