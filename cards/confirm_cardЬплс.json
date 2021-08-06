@@ -40,7 +40,13 @@
                                 "text_color": "default"
                               }
                             }
-                          }
+                          },
+                          "actions": [
+                            {
+                              "type": "text",
+                              "text": "Изменить сумму"
+                            }
+                          ]
                         }
                       ]
 
