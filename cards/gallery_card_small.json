@@ -1,6 +1,5 @@
 {
-        "type": "gallery_card",
-        "items": [
+  "items": [
           {
             "type": "media_gallery_item",
             "actions": [
@@ -153,5 +152,6 @@
               "max_lines": 2
             }
           }
-        ]
-      }
+        ],
+  "type": "gallery_card"
+}
