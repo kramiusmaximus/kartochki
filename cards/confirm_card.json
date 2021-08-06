@@ -1,22 +1,6 @@
 {
                       "cells": [
                         {
-                          "_desc": "Шапка карточки с тайтлом",
-                          "type": "text_cell_view",
-                          "content": {
-                            "text": "Перевод между своими счетами",
-                            "typeface": "headline3",
-                            "text_color": "default",
-                            "max_lines": 2
-                          },
-                          "paddings": {
-                            "left": "8x",
-                            "top": "6x",
-                            "right": "8x",
-                            "bottom": "6x"
-                          }
-                        },
-                        {
                           "type": "left_right_cell_view",
                           "paddings": {
                             "top": "6x",
@@ -42,77 +26,6 @@
                           }
                         },
                         {
-                          "_desc": "Блок с реквизитами счета списания",
-                          "type": "left_right_cell_view",
-                          "divider": {
-                            "style": "default",
-                            "size": "d5"
-                          },
-                          "paddings": {
-                            "left": "0x",
-                            "top": "0x",
-                            "right": "8x",
-                            "bottom": "6x"
-                          },
-                          "left": {
-                            "type": "simple_left_view",
-                            "icon": {
-                              "address": {
-                                "type": "local",
-                                "identificator": "{% if main_form.change_status == 'transfer_from_account' %}safe{% else %}{{ main_form.transfer_from.name_for_icon|default('safe') }}{% endif %}",
-                                "tint_color": "solid_white"
-                              },
-                              "size": {
-                                "width": "medium",
-                                "height": "medium"
-                              },
-                              "margins": {
-                                "left": "8x",
-                                "right": "6x"
-                              }
-                            },
-                            "icon_vertical_gravity": "center",
-                            "texts": {
-                              "title": {
-                                "text": "{% if main_form.change_status == 'transfer_from_account' %}{{ main_form.accounts[0].name }}{% elif main_form.transfer_from_product_type == 'target:' and main_form.transfer_from.comment %}{{ main_form.transfer_from.comment }}{% else %}{{main_form.transfer_from.name}}{% endif %}",
-                                "typeface": "body1",
-                                "text_color": "default"
-                              },
-                              "subtitle": {
-                                "text": "{% if main_form.transfer_from_product_type != 'target:' %}••{% if main_form.change_status == 'transfer_from_account' %}{{ main_form.accounts[0].number.replace(' ', '')[-4:] }}{% else %}{{ main_form.transfer_from.number.replace(' ', '')[-4:] }}{% endif %}{% else %}{{ 'До %s.%s.%s' % (main_form.transfer_from.date[8:10], main_form.transfer_from.date[5:7], main_form.transfer_from.date[:4]) }}{% endif%}",
-                                "typeface": "footnote1",
-                                "text_color": "secondary",
-                                "margins": {
-                                  "top": "1x"
-                                }
-                              }
-                            }
-                          },
-                          "right": {
-                            "type": "detail_right_view",
-                            "detail": {
-                              "text": "{% if (main_form.init_check.fromResource.split(':'))[:-1] == ['target'] %}{{ main_form.transfer_from.account.value.amount|string|comma_float|money }} ₽{% else %}{{main_form.transfer_from.view_balance|string|comma_float|money}} ₽{% endif %}",
-                              "typeface": "body1",
-                              "text_color": "brand"
-                            },
-                            "vertical_gravity": "top",
-                            "info_and_icon": {
-                              "info": {
-                                "text": "{% if main_form.transfer_from_product_type == 'account:' %}{{ main_form.transfer_from.rate }} %{% elif main_form.transfer_from_product_type == 'target:' %}{{ main_form.transfer_from.account.rate }} %{% else %}{{' '}}{% endif %}",
-                                "typeface": "footnote1",
-                                "text_color": "secondary",
-                                "max_lines": 1
-                              }
-                            }
-                          },
-                          "actions": [
-                            {
-                              "type": "text",
-                              "text": "Изменить счет списания"
-                            }
-                          ]
-                        },
-                        {
                           "type": "left_right_cell_view",
                           "paddings": {
                             "top": "6x",
@@ -136,77 +49,6 @@
                           "right": {
                             "type": "disclosure_right_view"
                           }
-                        },
-                        {
-                          "_desc": "Блок с реквизитами счета зачисления",
-                          "type": "left_right_cell_view",
-                          "divider": {
-                            "style": "default",
-                            "size": "d5"
-                          },
-                          "paddings": {
-                            "left": "0x",
-                            "top": "0x",
-                            "right": "8x",
-                            "bottom": "6x"
-                          },
-                          "left": {
-                            "type": "simple_left_view",
-                            "icon": {
-                              "address": {
-                                "type": "local",
-                                "identificator": "{{main_form.transfer_to.name_for_icon|default('safe')}}",
-                                "tint_color": "solid_white"
-                              },
-                              "size": {
-                                "width": "medium",
-                                "height": "medium"
-                              },
-                              "margins": {
-                                "left": "8x",
-                                "right": "6x"
-                              }
-                            },
-                            "icon_vertical_gravity": "center",
-                            "texts": {
-                              "title": {
-                                "text": "{% if main_form.transfer_to_product_type == 'target:' %}{{ main_form.transfer_to.comment }}{% else %}{{main_form.transfer_to.name}}{% endif %}",
-                                "typeface": "body1",
-                                "text_color": "default"
-                              },
-                              "subtitle": {
-                                "text": "{% if main_form.transfer_to_product_type == 'target:' %}{{ 'До %s.%s.%s' % (main_form.transfer_to.date[8:10], main_form.transfer_to.date[5:7], main_form.transfer_to.date[:4]) }}{% else %}••{{ main_form.transfer_to.number.replace(' ', '')[-4:] }}{% endif %}",
-                                "typeface": "footnote1",
-                                "text_color": "secondary",
-                                "margins": {
-                                  "top": "1x"
-                                }
-                              }
-                            }
-                          },
-                          "right": {
-                            "type": "detail_right_view",
-                            "detail": {
-                              "text": "{% if (main_form.init_check.toResource.split(':'))[:-1] == ['target'] %}{{ main_form.transfer_to.account.value.amount|string|comma_float|money }} ₽{% else %}{{main_form.transfer_to.view_balance|string|comma_float|money}} ₽{% endif %}",
-                              "typeface": "body1",
-                              "text_color": "brand"
-                            },
-                            "vertical_gravity": "top",
-                            "info_and_icon": {
-                              "info": {
-                                "text": "{% if main_form.transfer_to_product_type == 'account:' %}{{ main_form.transfer_to.rate }} %{% elif main_form.transfer_to_product_type == 'target:' %}{{ main_form.transfer_to.account.rate }} %{% else %}{{' '}}{% endif %}",
-                                "typeface": "footnote1",
-                                "text_color": "secondary",
-                                "max_lines": 1
-                              }
-                            }
-                          },
-                          "actions": [
-                            {
-                              "type": "text",
-                              "text": "Изменить счет зачисления"
-                            }
-                          ]
                         },
                         {
                           "type": "left_right_cell_view",
