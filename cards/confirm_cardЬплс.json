@@ -32,54 +32,46 @@
                         {
                           "type": "left_right_cell_view",
                           "paddings": {
-                            "top": "6x",
-                            "right": "4x",
-                            "left": "16x"
+                            "left": "8x",
+                            "top": "4x",
+                            "right": "8x",
+                            "bottom": "6x"
                           },
                           "left": {
                             "type": "simple_left_view",
+                            "icon": {
+                              "address": {
+                                "type": "local",
+                                "identificator": "total"
+                              },
+                              "size": {
+                                "width": "medium",
+                                "height": "medium"
+                              },
+                              "margins": {
+                                "right": "6x"
+                              }
+                            },
                             "icon_vertical_gravity": "center",
                             "texts": {
                               "title": {
-                                "text": "Счет зачисления",
+                                "text": "Сумма списания",
                                 "typeface": "footnote1",
-                                "text_color": "secondary",
-                                "margins": {
-                                  "left": "16x"
-                                }
+                                "text_color": "secondary"
+                              },
+                              "subtitle": {
+                                "text": "69 ₽",
+                                "typeface": "body1",
+                                "text_color": "default"
                               }
                             }
                           },
-                          "right": {
-                            "type": "disclosure_right_view"
-                          }
-                        },
-                        {
-                          "type": "button_cell_view",
-                          "content": {
-                            "text": "69 ₽",
-                            "typeface": "button1",
-                            "style": "default",
-                            "type": "accept",
-                            "actions": [
-                              {
-                                "type": "text",
-                                "text": "Подтверждаю"
-                              }
-                            ],
-                            "margins": {
-                              "left": "10x",
-                              "top": "5x",
-                              "right": "10x",
-                              "bottom": "5x"
+                          "actions": [
+                            {
+                              "type": "text",
+                              "text": "Изменить сумму"
                             }
-                          },
-                          "paddings": {
-                            "left": "4x",
-                            "top": "4x",
-                            "right": "4x",
-                            "bottom": "4x"
-                          }
+                          ]
                         }
                       ]
 
