@@ -1,8 +1,4 @@
 {
-
-                      "paddings": {
-                        "top": "4x"
-                      },
                       "cells": [
                         {
                           "_desc": "Шапка карточки с тайтлом",
@@ -283,5 +279,9 @@
                             "bottom": "4x"
                           }
                         }
-                      ], "type": "list_card"
+                      ],
+  "paddings": {
+                        "top": "4x"
+                      },
+  "type": "list_card"
 }
