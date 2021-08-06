@@ -32,6 +32,31 @@
                         {
                           "type": "left_right_cell_view",
                           "paddings": {
+                            "top": "6x",
+                            "right": "4x",
+                            "left": "16x"
+                          },
+                          "left": {
+                            "type": "simple_left_view",
+                            "icon_vertical_gravity": "center",
+                            "texts": {
+                              "title": {
+                                "text": "Счет зачисления",
+                                "typeface": "footnote1",
+                                "text_color": "secondary",
+                                "margins": {
+                                  "left": "16x"
+                                }
+                              }
+                            }
+                          },
+                          "right": {
+                            "type": "disclosure_right_view"
+                          }
+                        },
+                        {
+                          "type": "left_right_cell_view",
+                          "paddings": {
                             "left": "8x",
                             "top": "4x",
                             "right": "8x",
@@ -72,6 +97,33 @@
                               "text": "Изменить сумму"
                             }
                           ]
+                        },
+                        {
+                          "type": "button_cell_view",
+                          "content": {
+                            "text": "69₽",
+                            "typeface": "button1",
+                            "style": "default",
+                            "type": "accept",
+                            "actions": [
+                              {
+                                "type": "text",
+                                "text": "Подтверждаю"
+                              }
+                            ],
+                            "margins": {
+                              "left": "10x",
+                              "top": "5x",
+                              "right": "10x",
+                              "bottom": "5x"
+                            }
+                          },
+                          "paddings": {
+                            "left": "4x",
+                            "top": "4x",
+                            "right": "4x",
+                            "bottom": "4x"
+                          }
                         }
                       ]
 
