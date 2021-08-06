@@ -67,7 +67,7 @@
                             "icon": {
                               "address": {
                                 "type": "local",
-                                "identificator": "card_mc_black"
+                                "identificator": "{% if device.platformType|upper == 'ANDROID' %}{{'total'}}{% else %}{{'color_total'}}{% endif %}"
                               },
                               "size": {
                                 "width": "medium",
@@ -85,7 +85,7 @@
                                 "text_color": "secondary"
                               },
                               "subtitle": {
-                                "text": "69 ₽",
+                                "text": "{{main_form.amount|string|comma_float|money}} ₽",
                                 "typeface": "body1",
                                 "text_color": "default"
                               }
@@ -101,7 +101,7 @@
                         {
                           "type": "button_cell_view",
                           "content": {
-                            "text": "69₽",
+                            "text": "Перевести {{main_form.amount|string|comma_float|money}} ₽",
                             "typeface": "button1",
                             "style": "default",
                             "type": "accept",

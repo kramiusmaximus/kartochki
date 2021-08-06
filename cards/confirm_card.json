@@ -1,9 +1,26 @@
 {
-                       "type": "list_card",
-    "paddings": {
+                      "type": "list_card",
+                      "can_be_disabled": true,
+                      "paddings": {
                         "top": "4x"
                       },
-  "cells": [
+                      "cells": [
+                        {
+                          "_desc": "Шапка карточки с тайтлом",
+                          "type": "text_cell_view",
+                          "content": {
+                            "text": "Перевод между своими счетами",
+                            "typeface": "headline3",
+                            "text_color": "default",
+                            "max_lines": 2
+                          },
+                          "paddings": {
+                            "left": "8x",
+                            "top": "6x",
+                            "right": "8x",
+                            "bottom": "6x"
+                          }
+                        },
                         {
                           "type": "left_right_cell_view",
                           "paddings": {
@@ -28,6 +45,77 @@
                           "right": {
                             "type": "disclosure_right_view"
                           }
+                        },
+                        {
+                          "_desc": "Блок с реквизитами счета списания",
+                          "type": "left_right_cell_view",
+                          "divider": {
+                            "style": "default",
+                            "size": "d5"
+                          },
+                          "paddings": {
+                            "left": "0x",
+                            "top": "0x",
+                            "right": "8x",
+                            "bottom": "6x"
+                          },
+                          "left": {
+                            "type": "simple_left_view",
+                            "icon": {
+                              "address": {
+                                "type": "local",
+                                "identificator": "card_mc_black",
+                                "tint_color": "solid_white"
+                              },
+                              "size": {
+                                "width": "medium",
+                                "height": "medium"
+                              },
+                              "margins": {
+                                "left": "8x",
+                                "right": "6x"
+                              }
+                            },
+                            "icon_vertical_gravity": "center",
+                            "texts": {
+                              "title": {
+                                "text": "card_mc_black",
+                                "typeface": "body1",
+                                "text_color": "default"
+                              },
+                              "subtitle": {
+                                "text": "card_mc_black",
+                                "typeface": "footnote1",
+                                "text_color": "secondary",
+                                "margins": {
+                                  "top": "1x"
+                                }
+                              }
+                            }
+                          },
+                          "right": {
+                            "type": "detail_right_view",
+                            "detail": {
+                              "text": "some text",
+                              "typeface": "body1",
+                              "text_color": "brand"
+                            },
+                            "vertical_gravity": "top",
+                            "info_and_icon": {
+                              "info": {
+                                "text": "card_mc_black",
+                                "typeface": "footnote1",
+                                "text_color": "secondary",
+                                "max_lines": 1
+                              }
+                            }
+                          },
+                          "actions": [
+                            {
+                              "type": "text",
+                              "text": "Изменить счет списания"
+                            }
+                          ]
                         },
                         {
                           "type": "left_right_cell_view",
@@ -55,6 +143,77 @@
                           }
                         },
                         {
+                          "_desc": "Блок с реквизитами счета зачисления",
+                          "type": "left_right_cell_view",
+                          "divider": {
+                            "style": "default",
+                            "size": "d5"
+                          },
+                          "paddings": {
+                            "left": "0x",
+                            "top": "0x",
+                            "right": "8x",
+                            "bottom": "6x"
+                          },
+                          "left": {
+                            "type": "simple_left_view",
+                            "icon": {
+                              "address": {
+                                "type": "local",
+                                "identificator": "safe",
+                                "tint_color": "solid_white"
+                              },
+                              "size": {
+                                "width": "medium",
+                                "height": "medium"
+                              },
+                              "margins": {
+                                "left": "8x",
+                                "right": "6x"
+                              }
+                            },
+                            "icon_vertical_gravity": "center",
+                            "texts": {
+                              "title": {
+                                "text": "texty text",
+                                "typeface": "body1",
+                                "text_color": "default"
+                              },
+                              "subtitle": {
+                                "text": "more text",
+                                "typeface": "footnote1",
+                                "text_color": "secondary",
+                                "margins": {
+                                  "top": "1x"
+                                }
+                              }
+                            }
+                          },
+                          "right": {
+                            "type": "detail_right_view",
+                            "detail": {
+                              "text": "other text",
+                              "typeface": "body1",
+                              "text_color": "brand"
+                            },
+                            "vertical_gravity": "top",
+                            "info_and_icon": {
+                              "info": {
+                                "text": "some text",
+                                "typeface": "footnote1",
+                                "text_color": "secondary",
+                                "max_lines": 1
+                              }
+                            }
+                          },
+                          "actions": [
+                            {
+                              "type": "text",
+                              "text": "Изменить счет зачисления"
+                            }
+                          ]
+                        },
+                        {
                           "type": "left_right_cell_view",
                           "paddings": {
                             "left": "8x",
@@ -67,7 +226,7 @@
                             "icon": {
                               "address": {
                                 "type": "local",
-                                "identificator": "{% if device.platformType|upper == 'ANDROID' %}{{'total'}}{% else %}{{'color_total'}}{% endif %}"
+                                "identificator": "card_mc_black"
                               },
                               "size": {
                                 "width": "medium",
@@ -85,7 +244,7 @@
                                 "text_color": "secondary"
                               },
                               "subtitle": {
-                                "text": "{{main_form.amount|string|comma_float|money}} ₽",
+                                "text": "420 ₽",
                                 "typeface": "body1",
                                 "text_color": "default"
                               }
@@ -101,7 +260,7 @@
                         {
                           "type": "button_cell_view",
                           "content": {
-                            "text": "Перевести {{main_form.amount|string|comma_float|money}} ₽",
+                            "text": "Перевести 420 ₽",
                             "typeface": "button1",
                             "style": "default",
                             "type": "accept",
@@ -126,5 +285,4 @@
                           }
                         }
                       ]
-
 }
