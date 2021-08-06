@@ -1,6 +1,5 @@
+
 {
-  "items": [
-    {
       "card": {
         "type": "gallery_card",
         "items": [
@@ -159,5 +158,3 @@
         ]
       }
     }
-  ]
-}
