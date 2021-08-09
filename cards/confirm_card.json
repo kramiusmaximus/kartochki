@@ -50,7 +50,7 @@
                           "type": "left_right_cell_view",
                           "divider": {
                             "style": "default",
-                            "size": "d5"
+                            "size": "d4"
                           },
                           "paddings": {
                             "left": "8x",
@@ -160,7 +160,7 @@
                           "type": "left_right_cell_view",
                           "divider": {
                             "style": "default",
-                            "size": "d5"
+                            "size": "d4"
                           },
                           "paddings": {
                             "left": "8x",
@@ -220,7 +220,7 @@
                               },
                               "max_lines": 2
                             },
-                            "vertical_gravity": "center",
+                            "vertical_gravity": "top",
                             "info_and_icon": {
                               "info": {
                                 "text": "card_mc_black",
