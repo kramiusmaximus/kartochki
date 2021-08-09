@@ -50,7 +50,7 @@
                           "type": "left_right_cell_view",
                           "divider": {
                             "style": "default",
-                            "size": "d3"
+                            "size": "d4"
                           },
                           "paddings": {
                             "left": "8x",
@@ -88,7 +88,7 @@
                                 "typeface": "footnote1",
                                 "text_color": "secondary",
                                 "margins": {
-                                  "top": "2x"
+                                  "top": "1x"
                                 },
                                 "max_lines": 2
                               }
@@ -97,22 +97,22 @@
                           "right": {
                             "type": "detail_right_view",
                             "detail": {
-                              "text": "other text",
+                              "text": "some text",
                               "typeface": "body1",
                               "text_color": "brand",
-                              "margins" : {
-                                "left" : "4x",
-                                "top" : "1x"
-                              },
                               "max_lines": 2
                             },
                             "vertical_gravity": "top",
                             "info_and_icon": {
                               "info": {
-                                "text": "some text",
+                                "text": "card_mc_black",
                                 "typeface": "footnote1",
                                 "text_color": "secondary",
-                                "max_lines": 1
+                                "margins": {
+                                  "top": "1x",
+                                  "left": "4x"
+                                },
+                                "max_lines": 2
                               }
                             }
                           },
@@ -153,7 +153,7 @@
                           "type": "left_right_cell_view",
                           "divider": {
                             "style": "default",
-                            "size": "d3"
+                            "size": "d4"
                           },
                           "paddings": {
                             "left": "8x",
@@ -184,10 +184,7 @@
                                 "text": "texty texttexty texttexty texttexty texttexty text",
                                 "typeface": "body1",
                                 "text_color": "default",
-                                "max_lines": 2,
-                                "margins": {
-                                  "top": "2x"
-                                }
+                                "max_lines": 2
 
                               },
                               "subtitle": {
@@ -204,22 +201,22 @@
                           "right": {
                             "type": "detail_right_view",
                             "detail": {
-                              "text": "other text",
+                              "text": "some text",
                               "typeface": "body1",
                               "text_color": "brand",
-                              "margins" : {
-                                "left" : "4x",
-                                "top" : "1x"
-                              },
                               "max_lines": 2
                             },
                             "vertical_gravity": "top",
                             "info_and_icon": {
                               "info": {
-                                "text": "some text",
+                                "text": "card_mc_black",
                                 "typeface": "footnote1",
                                 "text_color": "secondary",
-                                "max_lines": 1
+                                "margins": {
+                                  "top": "1x",
+                                  "left": "4x"
+                                },
+                                "max_lines": 2
                               }
                             }
                           },
@@ -263,10 +260,7 @@
                               "subtitle": {
                                 "text": "420 ₽",
                                 "typeface": "body1",
-                                "text_color": "default",
-                                "margins": {
-                                  "top": "2x"
-                                }
+                                "text_color": "default"
                               }
                             }
                           },
