@@ -78,9 +78,10 @@
                             "icon_vertical_gravity": "center",
                             "texts": {
                               "title": {
-                                "text": "card_mc_black",
+                                "text": "card_mc_blackcard_mc_blackcard_mc_blackcard_mc_blackcard_mc_black",
                                 "typeface": "body1",
-                                "text_color": "default"
+                                "text_color": "default",
+                                "max_lines": 2
                               },
                               "subtitle": {
                                 "text": "card_mc_black",
@@ -88,7 +89,8 @@
                                 "text_color": "secondary",
                                 "margins": {
                                   "top": "1x"
-                                }
+                                },
+                                "max_lines": 2
                               }
                             }
                           },
@@ -97,7 +99,8 @@
                             "detail": {
                               "text": "some text",
                               "typeface": "body1",
-                              "text_color": "brand"
+                              "text_color": "brand",
+                              "max_lines": 2
                             },
                             "vertical_gravity": "top",
                             "info_and_icon": {
@@ -109,7 +112,7 @@
                                   "top": "1x",
                                   "left": "4x"
                                 },
-                                "max_lines": 1
+                                "max_lines": 2
                               }
                             }
                           },
@@ -171,16 +174,18 @@
                                 "height": "medium"
                               },
                               "margins": {
-                                "left": "4x",
-                                "right": "0x"
+                                "left": "0x",
+                                "right": "6x"
                               }
                             },
                             "icon_vertical_gravity": "center",
                             "texts": {
                               "title": {
-                                "text": "texty text",
+                                "text": "texty texttexty texttexty texttexty texttexty text",
                                 "typeface": "body1",
-                                "text_color": "default"
+                                "text_color": "default",
+                                "max_lines": 2
+
                               },
                               "subtitle": {
                                 "text": "more text",
@@ -188,7 +193,8 @@
                                 "text_color": "secondary",
                                 "margins": {
                                   "top": "1x"
-                                }
+                                },
+                                "max_lines": 2
                               }
                             }
                           },
@@ -197,7 +203,12 @@
                             "detail": {
                               "text": "other text",
                               "typeface": "body1",
-                              "text_color": "brand"
+                              "text_color": "brand",
+                              "margins" : {
+                                "left" : "4x",
+                                "top" : "1x"
+                              },
+                              "max_lines": 2
                             },
                             "vertical_gravity": "top",
                             "info_and_icon": {
