@@ -55,7 +55,7 @@
                           "paddings": {
                             "left": "0x",
                             "top": "0x",
-                            "right": "4x",
+                            "right": "8x",
                             "bottom": "6x"
                           },
                           "left": {
