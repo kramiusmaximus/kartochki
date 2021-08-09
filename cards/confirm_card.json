@@ -50,7 +50,7 @@
                           "type": "left_right_cell_view",
                           "divider": {
                             "style": "default",
-                            "size": "d1"
+                            "size": "d3"
                           },
                           "paddings": {
                             "left": "0x",
@@ -146,7 +146,7 @@
                           "type": "left_right_cell_view",
                           "divider": {
                             "style": "default",
-                            "size": "d5"
+                            "size": "d3"
                           },
                           "paddings": {
                             "left": "0x",
