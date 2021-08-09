@@ -14,9 +14,9 @@
                             "max_lines": 2
                           },
                           "paddings": {
-                            "left": "8x",
+                            "left": "4x",
                             "top": "6x",
-                            "right": "8x",
+                            "right": "4x",
                             "bottom": "6x"
                           }
                         },
@@ -50,10 +50,10 @@
                           "type": "left_right_cell_view",
                           "divider": {
                             "style": "default",
-                            "size": "d5"
+                            "size": "d4"
                           },
                           "paddings": {
-                            "left": "0x",
+                            "left": "8x",
                             "top": "0x",
                             "right": "8x",
                             "bottom": "6x"
@@ -71,8 +71,8 @@
                                 "height": "medium"
                               },
                               "margins": {
-                                "left": "8x",
-                                "right": "6x"
+                                "left": "4x",
+                                "right": "0x"
                               }
                             },
                             "icon_vertical_gravity": "center",
@@ -146,10 +146,10 @@
                           "type": "left_right_cell_view",
                           "divider": {
                             "style": "default",
-                            "size": "d5"
+                            "size": "d4"
                           },
                           "paddings": {
-                            "left": "0x",
+                            "left": "8x",
                             "top": "0x",
                             "right": "8x",
                             "bottom": "6x"
@@ -167,8 +167,8 @@
                                 "height": "medium"
                               },
                               "margins": {
-                                "left": "8x",
-                                "right": "6x"
+                                "left": "4x",
+                                "right": "0x"
                               }
                             },
                             "icon_vertical_gravity": "center",
@@ -270,15 +270,15 @@
                               }
                             ],
                             "margins": {
-                              "left": "10x",
+                              "left": "5x",
                               "top": "5x",
-                              "right": "10x",
+                              "right": "5x",
                               "bottom": "5x"
                             }
                           },
                           "paddings": {
                             "left": "4x",
-                            "top": "4x",
+                            "top": "10x",
                             "right": "4x",
                             "bottom": "4x"
                           }
