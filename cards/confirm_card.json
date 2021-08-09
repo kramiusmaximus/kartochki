@@ -270,15 +270,15 @@
                               }
                             ],
                             "margins": {
-                              "left": "10x",
+                              "left": "5x",
                               "top": "5x",
-                              "right": "10x",
+                              "right": "5x",
                               "bottom": "5x"
                             }
                           },
                           "paddings": {
                             "left": "4x",
-                            "top": "4x",
+                            "top": "10x",
                             "right": "4x",
                             "bottom": "4x"
                           }
