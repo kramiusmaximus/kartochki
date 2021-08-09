@@ -53,9 +53,9 @@
                             "size": "d4"
                           },
                           "paddings": {
-                            "left": "8x",
+                            "left": "4x",
                             "top": "0x",
-                            "right": "8x",
+                            "right": "4x",
                             "bottom": "6x"
                           },
                           "left": {
