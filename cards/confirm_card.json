@@ -71,7 +71,7 @@
                                 "height": "medium"
                               },
                               "margins": {
-                                "left": "0x",
+                                "left": "4x",
                                 "right": "0x"
                               }
                             },
@@ -167,7 +167,7 @@
                                 "height": "medium"
                               },
                               "margins": {
-                                "left": "0x",
+                                "left": "4x",
                                 "right": "0x"
                               }
                             },
