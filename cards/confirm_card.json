@@ -50,12 +50,12 @@
                           "type": "left_right_cell_view",
                           "divider": {
                             "style": "default",
-                            "size": "d3"
+                            "size": "d4"
                           },
                           "paddings": {
-                            "left": "0x",
+                            "left": "4x",
                             "top": "0x",
-                            "right": "8x",
+                            "right": "4x",
                             "bottom": "6x"
                           },
                           "left": {
