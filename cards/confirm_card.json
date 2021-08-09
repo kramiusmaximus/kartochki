@@ -53,9 +53,9 @@
                             "size": "d4"
                           },
                           "paddings": {
-                            "left": "4x",
+                            "left": "8x",
                             "top": "0x",
-                            "right": "4x",
+                            "right": "8x",
                             "bottom": "6x"
                           },
                           "left": {
@@ -71,8 +71,8 @@
                                 "height": "medium"
                               },
                               "margins": {
-                                "left": "8x",
-                                "right": "0x"
+                                "left": "0x",
+                                "right": "6x"
                               }
                             },
                             "icon_vertical_gravity": "center",
@@ -106,7 +106,8 @@
                                 "typeface": "footnote1",
                                 "text_color": "secondary",
                                 "margins": {
-                                  "top": "1x"
+                                  "top": "1x",
+                                  "left": "4x"
                                 },
                                 "max_lines": 1
                               }
@@ -228,7 +229,7 @@
                             "icon": {
                               "address": {
                                 "type": "local",
-                                "identificator": "card_mc_black"
+                                "identificator": "total"
                               },
                               "size": {
                                 "width": "medium",
