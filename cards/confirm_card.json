@@ -50,7 +50,7 @@
                           "type": "left_right_cell_view",
                           "divider": {
                             "style": "default",
-                            "size": "d4"
+                            "size": "d3"
                           },
                           "paddings": {
                             "left": "8x",
@@ -160,7 +160,7 @@
                           "type": "left_right_cell_view",
                           "divider": {
                             "style": "default",
-                            "size": "d4"
+                            "size": "d3"
                           },
                           "paddings": {
                             "left": "8x",
@@ -220,7 +220,7 @@
                               },
                               "max_lines": 2
                             },
-                            "vertical_gravity": "top",
+                            "vertical_gravity": "center",
                             "info_and_icon": {
                               "info": {
                                 "text": "card_mc_black",
@@ -229,8 +229,8 @@
                                 "margins": {
                                   "top": "2x",
                                   "left": "8x"
-                              },
-                              "max_lines": 2
+                                },
+                                "max_lines": 2
                               }
                             }
                           },
