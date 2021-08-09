@@ -50,7 +50,7 @@
                           "type": "left_right_cell_view",
                           "divider": {
                             "style": "default",
-                            "size": "d4"
+                            "size": "d3"
                           },
                           "paddings": {
                             "left": "8x",
@@ -81,6 +81,9 @@
                                 "text": "card_mc_blackcard_mc_blackcard_mc_blackcard_mc_blackcard_mc_black",
                                 "typeface": "body1",
                                 "text_color": "default",
+                                "margins": {
+                                  "top": "2x"
+                                },
                                 "max_lines": 2
                               },
                               "subtitle": {
@@ -88,7 +91,7 @@
                                 "typeface": "footnote1",
                                 "text_color": "secondary",
                                 "margins": {
-                                  "top": "1x"
+                                  "top": "2x"
                                 },
                                 "max_lines": 2
                               }
@@ -101,19 +104,19 @@
                               "typeface": "body1",
                               "text_color": "brand",
                               "margins": {
-                                  "top": "1x",
+                                  "top": "2x",
                                   "left": "8x"
                               },
                               "max_lines": 2
                             },
-                            "vertical_gravity": "top",
+                            "vertical_gravity": "middle",
                             "info_and_icon": {
                               "info": {
                                 "text": "card_mc_black",
                                 "typeface": "footnote1",
                                 "text_color": "secondary",
                                 "margins": {
-                                  "top": "1x",
+                                  "top": "2x",
                                   "left": "8x"
                                 },
                                 "max_lines": 2
