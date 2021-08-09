@@ -1,6 +1,4 @@
-{
-      "card": {
-        "type": "list_card",
+{"type": "list_card",
         "paddings": {
           "top": "4x",
           "bottom": "4x"
@@ -132,4 +130,3 @@
           }
         ]
       }
-    }
