@@ -167,8 +167,8 @@
                                 "height": "medium"
                               },
                               "margins": {
-                                "left": "8x",
-                                "right": "6x"
+                                "left": "0x",
+                                "right": "0x"
                               }
                             },
                             "icon_vertical_gravity": "center",
