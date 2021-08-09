@@ -149,7 +149,7 @@
                             "size": "d4"
                           },
                           "paddings": {
-                            "left": "0x",
+                            "left": "8x",
                             "top": "0x",
                             "right": "8x",
                             "bottom": "6x"
