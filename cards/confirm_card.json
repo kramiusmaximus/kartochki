@@ -36,7 +36,7 @@
                                 "typeface": "footnote1",
                                 "text_color": "secondary",
                                 "margins": {
-                                  "left": "16x"
+                                  "left": "0x"
                                 }
                               }
                             }
