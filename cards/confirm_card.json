@@ -50,12 +50,12 @@
                           "type": "left_right_cell_view",
                           "divider": {
                             "style": "default",
-                            "size": "d4"
+                            "size": "d3"
                           },
                           "paddings": {
                             "left": "8x",
                             "top": "0x",
-                            "right": "4x",
+                            "right": "8x",
                             "bottom": "6x"
                           },
                           "left": {
@@ -93,7 +93,7 @@
                                 "margins": {
                                   "top": "0x"
                                 },
-                                "max_lines": 2
+                                "max_lines": 1
                               }
                             }
                           },
@@ -108,7 +108,7 @@
                                   "left": "4x",
                                 "right": "4x"
                               },
-                              "max_lines": 2
+                              "max_lines": 1
                             },
                             "vertical_gravity": "center",
                             "info_and_icon": {
@@ -119,9 +119,9 @@
                                 "margins": {
                                   "top": "0x",
                                   "left": "4x",
-                                  "right": "4x"
+                                  "right": "8x"
                                 },
-                                "max_lines": 2
+                                "max_lines": 1
                               }
                             }
                           },
