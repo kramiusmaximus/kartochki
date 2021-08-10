@@ -109,7 +109,7 @@
                               },
                               "max_lines": 2
                             },
-                            "vertical_gravity": "center",
+                            "vertical_gravity": "bottom",
                             "info_and_icon": {
                               "info": {
                                 "text": "card_mc_black",
