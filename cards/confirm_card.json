@@ -14,9 +14,9 @@
                             "max_lines": 2
                           },
                           "paddings": {
-                            "left": "4x",
+                            "left": "8x",
                             "top": "6x",
-                            "right": "4x",
+                            "right": "8x",
                             "bottom": "6x"
                           }
                         },
