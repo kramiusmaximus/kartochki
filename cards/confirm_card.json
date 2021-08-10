@@ -162,7 +162,7 @@
                             "size": "d4"
                           },
                           "paddings": {
-                            "left": "8x",
+                            "left": "0x",
                             "top": "0x",
                             "right": "8x",
                             "bottom": "6x"
@@ -172,7 +172,7 @@
                             "icon": {
                               "address": {
                                 "type": "local",
-                                "identificator": "safe",
+                                "identificator": "card_mc_black",
                                 "tint_color": "solid_white"
                               },
                               "size": {
@@ -180,30 +180,30 @@
                                 "height": "medium"
                               },
                               "margins": {
-                                "left": "0x",
+                                "left": "8x",
                                 "right": "6x"
                               }
                             },
                             "icon_vertical_gravity": "center",
                             "texts": {
                               "title": {
-                                "text": "texty texttexty texttexty texttexty texttexty text",
+                                "text": "card_mc",
                                 "typeface": "body1",
                                 "text_color": "default",
-                                "max_lines": 2,
                                 "margins": {
-                                  "top": "2x"
-                                }
-
+                                  "left": "0x",
+                                  "right": "0x"
+                                },
+                                "max_lines": 2
                               },
                               "subtitle": {
-                                "text": "more text",
+                                "text": "card_mc_black",
                                 "typeface": "footnote1",
                                 "text_color": "secondary",
                                 "margins": {
-                                  "top": "2x"
+                                  "top": "0x"
                                 },
-                                "max_lines": 2
+                                "max_lines": 1
                               }
                             }
                           },
@@ -214,20 +214,18 @@
                               "typeface": "body1",
                               "text_color": "brand",
                               "margins": {
-                                  "top": "2x",
-                                  "left": "8x"
+                                  "left": "4x"
                               },
                               "max_lines": 2
                             },
-                            "vertical_gravity": "center",
+                            "vertical_gravity": "bottom",
                             "info_and_icon": {
                               "info": {
                                 "text": "card_mc_black",
                                 "typeface": "footnote1",
                                 "text_color": "secondary",
                                 "margins": {
-                                  "top": "2x",
-                                  "left": "8x"
+                                  "left": "4x"
                                 },
                                 "max_lines": 2
                               }
