@@ -50,7 +50,7 @@
                           "type": "left_right_cell_view",
                           "divider": {
                             "style": "default",
-                            "size": "d5"
+                            "size": "d4"
                           },
                           "paddings": {
                             "left": "0x",
@@ -71,7 +71,7 @@
                                 "height": "medium"
                               },
                               "margins": {
-                                "left": "0x",
+                                "left": "8x",
                                 "right": "6x"
                               }
                             },
@@ -82,8 +82,8 @@
                                 "typeface": "body1",
                                 "text_color": "default",
                                 "margins": {
-                                  "left": "8x",
-                                  "right": "6x"
+                                  "left": "0x",
+                                  "right": "0x"
                                 },
                                 "max_lines": 2
                               },
