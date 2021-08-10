@@ -50,7 +50,7 @@
                           "type": "left_right_cell_view",
                           "divider": {
                             "style": "default",
-                            "size": "d3"
+                            "size": "d5"
                           },
                           "paddings": {
                             "left": "8x",
@@ -82,7 +82,7 @@
                                 "typeface": "body1",
                                 "text_color": "default",
                                 "margins": {
-                                  "top": "2x"
+                                  "top": "0x"
                                 },
                                 "max_lines": 2
                               },
@@ -91,7 +91,7 @@
                                 "typeface": "footnote1",
                                 "text_color": "secondary",
                                 "margins": {
-                                  "top": "2x"
+                                  "top": "0x"
                                 },
                                 "max_lines": 2
                               }
@@ -104,7 +104,7 @@
                               "typeface": "body1",
                               "text_color": "brand",
                               "margins": {
-                                  "top": "2x",
+                                  "top": "0x",
                                   "left": "8x"
                               },
                               "max_lines": 2
@@ -116,7 +116,7 @@
                                 "typeface": "footnote1",
                                 "text_color": "secondary",
                                 "margins": {
-                                  "top": "2x",
+                                  "top": "0x",
                                   "left": "8x"
                                 },
                                 "max_lines": 2
@@ -160,7 +160,7 @@
                           "type": "left_right_cell_view",
                           "divider": {
                             "style": "default",
-                            "size": "d3"
+                            "size": "d5"
                           },
                           "paddings": {
                             "left": "8x",
