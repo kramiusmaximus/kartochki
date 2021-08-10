@@ -53,9 +53,9 @@
                             "size": "d3"
                           },
                           "paddings": {
-                            "left": "8x",
+                            "left": "16x",
                             "top": "0x",
-                            "right": "8x",
+                            "right": "4x",
                             "bottom": "6x"
                           },
                           "left": {
@@ -106,7 +106,7 @@
                               "margins": {
                                   "top": "0x",
                                   "left": "4x",
-                                "right": "4x"
+                                "right": "0x"
                               },
                               "max_lines": 1
                             },
@@ -119,7 +119,7 @@
                                 "margins": {
                                   "top": "0x",
                                   "left": "4x",
-                                  "right": "8x"
+                                  "right": "0x"
                                 },
                                 "max_lines": 1
                               }
