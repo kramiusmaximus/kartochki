@@ -304,16 +304,16 @@
                               }
                             ],
                             "margins": {
-                              "left": "5x",
+                              "left": "0x",
                               "top": "5x",
-                              "right": "5x",
+                              "right": "0x",
                               "bottom": "5x"
                             }
                           },
                           "paddings": {
-                            "left": "4x",
+                            "left": "8x",
                             "top": "10x",
-                            "right": "4x",
+                            "right": "8x",
                             "bottom": "4x"
                           }
                         }
