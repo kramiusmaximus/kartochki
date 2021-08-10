@@ -50,7 +50,7 @@
                           "type": "left_right_cell_view",
                           "divider": {
                             "style": "default",
-                            "size": "d5"
+                            "size": "d4"
                           },
                           "paddings": {
                             "left": "8x",
@@ -105,7 +105,8 @@
                               "text_color": "brand",
                               "margins": {
                                   "top": "0x",
-                                  "left": "4x"
+                                  "left": "4x",
+                                "right": "4x"
                               },
                               "max_lines": 2
                             },
@@ -117,7 +118,8 @@
                                 "text_color": "secondary",
                                 "margins": {
                                   "top": "0x",
-                                  "left": "4x"
+                                  "left": "4x",
+                                  "right": "4x"
                                 },
                                 "max_lines": 2
                               }
@@ -160,7 +162,7 @@
                           "type": "left_right_cell_view",
                           "divider": {
                             "style": "default",
-                            "size": "d5"
+                            "size": "d4"
                           },
                           "paddings": {
                             "left": "8x",
