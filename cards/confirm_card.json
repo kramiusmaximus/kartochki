@@ -55,7 +55,7 @@
                           "paddings": {
                             "left": "8x",
                             "top": "0x",
-                            "right": "8x",
+                            "right": "4x",
                             "bottom": "6x"
                           },
                           "left": {
@@ -105,7 +105,7 @@
                               "text_color": "brand",
                               "margins": {
                                   "top": "0x",
-                                  "left": "8x"
+                                  "left": "4x"
                               },
                               "max_lines": 2
                             },
@@ -117,7 +117,7 @@
                                 "text_color": "secondary",
                                 "margins": {
                                   "top": "0x",
-                                  "left": "8x"
+                                  "left": "4x"
                                 },
                                 "max_lines": 2
                               }
