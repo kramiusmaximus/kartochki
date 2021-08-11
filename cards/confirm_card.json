@@ -94,7 +94,7 @@
                                 "margins": {
                                   "top": "0x"
                                 },
-                                "max_lines": 1
+                                "max_lines": 2
                               }
                             }
                           },
@@ -203,7 +203,7 @@
                                 "margins": {
                                   "top": "0x"
                                 },
-                                "max_lines": 1
+                                "max_lines": 2
                               }
                             }
                           },
@@ -266,7 +266,10 @@
                               "title": {
                                 "text": "Сумма списания",
                                 "typeface": "footnote1",
-                                "text_color": "secondary"
+                                "text_color": "secondary",
+                                "margins" : {
+                                  "top": "2x"
+                                }
                               },
                               "subtitle": {
                                 "text": "420 ₽",
