@@ -258,7 +258,8 @@
                                 "height": "medium"
                               },
                               "margins": {
-                                "right": "6x"
+                                "right": "6x",
+                                "top": "2x"
                               }
                             },
                             "icon_vertical_gravity": "center",
