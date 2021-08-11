@@ -172,7 +172,7 @@
                             "icon": {
                               "address": {
                                 "type": "local",
-                                "identificator": "card_mc_black",
+                                "identificator": "safe",
                                 "tint_color": "solid_white"
                               },
                               "size": {
