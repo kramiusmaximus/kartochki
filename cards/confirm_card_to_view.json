@@ -43,7 +43,7 @@
       },
       "right": {
         "type": "disclosure_right_view",
-        "margins" : {"right" :  "2x"}
+        "margins" : {"right" :  "3x"}
       }
     },
     {
@@ -148,7 +148,7 @@
       },
       "right": {
         "type": "disclosure_right_view",
-        "margins" : {"right" :  "2x"}
+        "margins" : {"right" :  "3x"}
       }
     },
     {
