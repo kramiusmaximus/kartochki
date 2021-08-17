@@ -64,7 +64,7 @@
         "icon": {
                               "address": {
                                 "type": "local",
-                                "identificator": "{% if main_form.change_status == 'transfer_from_account' %}safe{% else %}{{ main_form.transfer_from.name_for_icon|default('safe') }}{% endif %}",
+                                "identificator": "card_mc_black",
                                 "tint_color": "solid_white"
                               },
                               "size": {
@@ -79,7 +79,7 @@
         "icon_vertical_gravity": "center",
         "texts": {
           "title": {
-            "text": "{% if main_form.change_status == 'transfer_from_account' %}{{ main_form.accounts[0].name }}{% elif main_form.transfer_from_product_type == 'target:' and main_form.transfer_from.comment %}{{ main_form.transfer_from.comment }}{% else %}{{main_form.transfer_from.name}}{% endif %}",
+            "text": "integratable 2",
             "typeface": "body1",
             "text_color": "default",
             "margins": {
@@ -89,7 +89,7 @@
             "max_lines": 2
           },
           "subtitle": {
-            "text": "{% if main_form.transfer_from_product_type != 'target:' %}••{% if main_form.change_status == 'transfer_from_account' %}{{ main_form.accounts[0].number.replace(' ', '')[-4:] }}{% else %}{{ main_form.transfer_from.number.replace(' ', '')[-4:] }}{% endif %}{% else %}{{ 'До %s.%s.%s' % (main_form.transfer_from.date[8:10], main_form.transfer_from.date[5:7], main_form.transfer_from.date[:4]) }}{% endif%}",
+            "text": "integratable 3",
             "typeface": "footnote1",
             "text_color": "secondary",
             "margins": {
@@ -102,7 +102,7 @@
       "right": {
         "type": "detail_right_view",
         "detail": {
-          "text": "{% if main_form.transfer_from_product_type == 'account:' %}{{ main_form.transfer_from.rate }} %{% elif main_form.transfer_from_product_type == 'target:' %}{{ main_form.transfer_from.account.rate }} %{% else %}{{' '}}{% endif %}",
+          "text": "integratable 4",
           "typeface": "footnote1",
           "text_color": "secondary",
           "margins" : {"left" : "8x"}
@@ -110,7 +110,7 @@
         "vertical_gravity": "bottom",
         "info_and_icon": {
           "info": {
-            "text": "{% if (main_form.init_check.fromResource.split(':'))[:-1] == ['target'] %}{{ main_form.transfer_from.account.value.amount|string|comma_float|money }} ₽{% else %}{{main_form.transfer_from.view_balance|string|comma_float|money}} ₽{% endif %}",
+            "text": "integratable 5",
             "typeface": "body1",
             "text_color": "brand",
             "max_lines": 2,
@@ -169,7 +169,7 @@
         "icon": {
           "address": {
             "type": "local",
-            "identificator": "{{main_form.transfer_to.name_for_icon|default('safe')}}",
+            "identificator": "card_mc_black",
             "tint_color": "solid_white"
           },
           "size": {
@@ -184,7 +184,7 @@
         "icon_vertical_gravity": "center",
         "texts": {
           "title": {
-            "text": "{% if main_form.transfer_to_product_type == 'target:' %}{{ main_form.transfer_to.comment }}{% else %}{{main_form.transfer_to.name}}{% endif %}",
+            "text": "integratable 7",
             "typeface": "body1",
             "text_color": "default",
             "margins": {
@@ -194,7 +194,7 @@
             "max_lines": 2
           },
           "subtitle": {
-            "text": "{% if main_form.transfer_to_product_type == 'target:' %}{{ 'До %s.%s.%s' % (main_form.transfer_to.date[8:10], main_form.transfer_to.date[5:7], main_form.transfer_to.date[:4]) }}{% else %}••{{ main_form.transfer_to.number.replace(' ', '')[-4:] }}{% endif %}",
+            "text": "integratable 8",
             "typeface": "footnote1",
             "text_color": "secondary",
             "margins": {
@@ -207,7 +207,7 @@
       "right": {
         "type": "detail_right_view",
         "detail": {
-          "text": "{% if main_form.transfer_to_product_type == 'account:' %}{{ main_form.transfer_to.rate }} %{% elif main_form.transfer_to_product_type == 'target:' %}{{ main_form.transfer_to.account.rate }} %{% else %}{{' '}}{% endif %}",
+          "text": "integratable 9",
           "typeface": "footnote1",
           "text_color": "secondary",
           "margins" : {"left" : "8x"}
@@ -215,7 +215,7 @@
         "vertical_gravity": "bottom",
         "info_and_icon": {
           "info": {
-            "text": "{% if (main_form.init_check.toResource.split(':'))[:-1] == ['target'] %}{{ main_form.transfer_to.account.value.amount|string|comma_float|money }} ₽{% else %}{{main_form.transfer_to.view_balance|string|comma_float|money}} ₽{% endif %}",
+            "text": "integratable 10",
             "typeface": "body1",
             "text_color": "brand",
             "max_lines": 2,
@@ -243,7 +243,7 @@
         "icon": {
           "address": {
             "type": "local",
-            "identificator": "{% if device.platformType|upper == 'ANDROID' %}{{'total'}}{% else %}{{'color_total'}}{% endif %}"
+            "identificator": "card_mc_black"
           },
           "size": {
             "width": "medium",
@@ -265,7 +265,7 @@
             }
           },
           "subtitle": {
-            "text": "{{main_form.amount|string|comma_float|money}} ₽",
+            "text": "69 ₽",
             "typeface": "body1",
             "text_color": "default",
             "margins": {
@@ -284,7 +284,7 @@
     {
       "type": "button_cell_view",
       "content": {
-        "text": "Перевести {{main_form.amount|string|comma_float|money}} ₽",
+        "text": "Перевести 69 ₽",
         "typeface": "button1",
         "style": "default",
         "type": "accept",
