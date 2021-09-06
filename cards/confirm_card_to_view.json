@@ -64,7 +64,7 @@
         "icon": {
                               "address": {
                                 "type": "local",
-                                "identificator": "card_mc_black",
+                                "identificator": "total",
                                 "tint_color": "solid_white"
                               },
                               "size": {
@@ -169,7 +169,7 @@
         "icon": {
           "address": {
             "type": "local",
-            "identificator": "card_mc_black",
+            "identificator": "arrows_forward_back",
             "tint_color": "solid_white"
           },
           "size": {
