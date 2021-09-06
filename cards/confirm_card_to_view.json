@@ -169,7 +169,7 @@
         "icon": {
           "address": {
             "type": "local",
-            "identificator": "arrows_forward_back",
+            "identificator": "total",
             "tint_color": "solid_white"
           },
           "size": {
